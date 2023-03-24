@@ -1,0 +1,67 @@
+@font-face {
+  font-family: 'KimjungchulGothic-Bold';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/KimjungchulGothic-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+nav
+{
+  background-color: #666;
+  width: 100%;
+  height: 70px;
+}
+
+#logo
+{
+  float: left;
+  height: 60px;
+  width: 100%;
+}
+
+#logo img
+{
+  margin-left: 13%;
+  margin-top: 17px;
+  height: 50px;
+}
+
+#team_intro
+{
+  /* background-color: aqua; */
+  height: 650px;
+}
+#team_intro .logo
+{
+  width: 312px;
+  height: 213px;
+  float: left;
+  margin-left: 20%;
+  margin-top: 60px;
+}
+#team_intro .text-box
+{
+  text-align: center;
+  border-radius: 10px;
+  float: left;
+  background-color: rgb(228, 228, 228);
+  width: 800px;
+  height: 275px;
+  margin-top: 60px;
+  margin-left: 40px;
+}
+#team_intro .text-box .text
+{
+  margin-top: 10px;
+  margin-left: 10px;
+  /* background-color: aqua; */
+  width: 780px;
+  height: 193px;
+}
+
+#project_list
+{
+  background-color: blue;
+  height: 400px;
+}
