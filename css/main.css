@@ -5,6 +5,15 @@
   font-style: normal;
 }
 
+.hr
+{
+  height: 3px;
+  width: 100%;
+  background-color: #000;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 
 nav
 {
@@ -30,7 +39,7 @@ nav
 #team_intro
 {
   /* background-color: aqua; */
-  height: 650px;
+  height: 450px;
 }
 #team_intro .logo
 {
@@ -60,8 +69,42 @@ nav
   height: 193px;
 }
 
+#member
+{
+  border-radius: 15px;
+  margin-left: 20%;
+  margin-bottom: 30px;
+  background-color: rgb(233, 211, 252);
+  height: 200px;
+  width : 20%;
+  text-align: center;
+  font-size: 30px;
+}
+
+#member ul h3
+{
+  font-family: KimjungchulGothic-Bold;
+}
+
+#member ul li pre
+{
+  font-family: KimjungchulGothic-Bold;
+}
+
+#member ul
+{
+  list-style: none;
+}
+
 #project_list
 {
   background-color: rgb(160, 160, 230);
   height: 400px;
+}
+
+#footer
+{
+  background-color: aquamarine;
+  height: 300px;
+  width: 100%;
 }
