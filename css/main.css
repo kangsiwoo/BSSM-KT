@@ -41,10 +41,17 @@ nav
   /* background-color: aqua; */
   height: 450px;
 }
+
+/* #team_intro .part_one
+{
+  bord-
+} */
+
+
 #team_intro .logo
 {
-  width: 312px;
-  height: 213px;
+  width: 350px;
+  height: 277px;
   float: left;
   margin-left: 20%;
   margin-top: 60px;
@@ -58,7 +65,7 @@ nav
   width: 800px;
   height: 275px;
   margin-top: 60px;
-  margin-left: 40px;
+  margin-left: 10px;
 }
 #team_intro .text-box .text
 {
@@ -74,9 +81,11 @@ nav
   border-radius: 15px;
   margin-left: 20%;
   margin-bottom: 30px;
-  background-color: rgb(233, 211, 252);
+  margin: auto;
+  /* background-color: rgb(233, 211, 252); */
+  background-color: rgb(228, 228, 228);
   height: 200px;
-  width : 20%;
+  width : 1170pxpx;
   text-align: center;
   font-size: 30px;
 }
@@ -104,7 +113,7 @@ nav
 
 #footer
 {
-  background-color: aquamarine;
+  /* background-color: aquamarine; */
   height: 300px;
   width: 100%;
 }
