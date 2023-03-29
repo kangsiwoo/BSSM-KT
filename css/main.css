@@ -47,25 +47,26 @@ nav
   bord-
 } */
 
-
-#team_intro .logo
+#team_intro .part_one
 {
-  width: 350px;
-  height: 277px;
-  float: left;
-  margin-left: 20%;
+  margin: auto;
   margin-top: 60px;
+  width: 1150px;
+
 }
-#team_intro .text-box
+
+#team_intro .part_one .logo
+{
+  float: left;
+}
+#team_intro .part_one .text-box
 {
   text-align: center;
-  border-radius: 10px;
+  border-radius: 15px;
   float: left;
   background-color: rgb(228, 228, 228);
   width: 800px;
   height: 275px;
-  margin-top: 60px;
-  margin-left: 10px;
 }
 #team_intro .text-box .text
 {
@@ -78,10 +79,9 @@ nav
 
 #member
 {
-  border-radius: 15px;
-  margin-left: 20%;
-  margin-bottom: 30px;
   margin: auto;
+  border-radius: 15px;
+  margin-bottom: 30px;
   /* background-color: rgb(233, 211, 252); */
   background-color: rgb(228, 228, 228);
   height: 200px;
