@@ -39,7 +39,7 @@ nav
 #team_intro
 {
   /* background-color: aqua; */
-  height: 450px;
+  height: 297px;
 }
 
 /* #team_intro .part_one
@@ -105,10 +105,44 @@ nav
   list-style: none;
 }
 
-#project_list
+/* #project_list
 {
   background-color: rgb(160, 160, 230);
   height: 400px;
+} */
+
+#project
+{
+  margin: auto;
+  width: 1170px;
+  height: 100px;
+}
+
+#project .proceeding
+{
+  background-color: rgb(208, 208, 208);
+  width: 32.5%;
+  height: 100%;
+  float: left;
+  margin-right: 1%;
+  border-radius: 15px;
+}
+#project .expected
+{
+  background-color: rgb(208, 208, 208);
+  width: 33%;
+  height: 100%;
+  float: left;
+  margin-right: 1%;
+  border-radius: 15px;
+}
+#project .finished
+{
+  background-color: rgb(208, 208, 208);
+  width: 32.5%;
+  height: 100%;
+  float: left;
+  border-radius: 15px;
 }
 
 #footer
