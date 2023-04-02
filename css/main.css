@@ -61,6 +61,7 @@ nav
 }
 #team_intro .part_one .text_box
 {
+  padding-top: 20px;
   font-size: 20px;
   font-family: KimjungchulGothic-Bold;
   text-align: center;
@@ -68,7 +69,7 @@ nav
   float: left;
   background-color: rgb(228, 228, 228);
   width: 800px;
-  height: 275px;
+  height: 255px;
 }
 #team_intro .text-box .text
 {
@@ -86,7 +87,7 @@ nav
   margin-bottom: 30px;
   /* background-color: rgb(233, 211, 252); */
   background-color: rgb(228, 228, 228);
-  height: 200px;
+  height: 210px;
   width : 1170px;
   text-align: center;
   font-size: 30px;
@@ -94,6 +95,7 @@ nav
 
 #member ul h3
 {
+  padding-top: 10px;
   font-family: KimjungchulGothic-Bold;
 }
 
@@ -123,6 +125,7 @@ nav
 #project .proceeding
 {
   text-align: center; font-family: KimjungchulGothic-Bold;
+  font-size: 20px;
   background-color: rgb(208, 208, 208);
   width: 32.5%;
   height: 100%;
@@ -130,9 +133,14 @@ nav
   margin-right: 1%;
   border-radius: 15px;
 }
+#project .proceeding
+{
+  padding-top: 10px;
+}
 #project .expected
 {
   text-align: center; font-family: KimjungchulGothic-Bold;
+  font-size: 20px;
   background-color: rgb(208, 208, 208);
   width: 33%;
   height: 100%;
@@ -140,14 +148,23 @@ nav
   margin-right: 1%;
   border-radius: 15px;
 }
+#project .expected
+{
+  padding-top: 10px;
+}
 #project .finished
 {
   text-align: center; font-family: KimjungchulGothic-Bold;
+  font-size: 20px;
   background-color: rgb(208, 208, 208);
   width: 32.5%;
   height: 100%;
   float: left;
   border-radius: 15px;
+}
+#project .finished
+{
+  padding-top: 10px;
 }
 
 #footer
