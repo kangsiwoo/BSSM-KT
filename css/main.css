@@ -1,163 +1,76 @@
-@font-face {
-  font-family: 'KimjungchulGothic-Bold';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/KimjungchulGothic-Bold.woff2') format('woff2');
-  font-weight: 700;
-  font-style: normal;
+body
+{
+  background-color: black;
+}
+nav
+{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  
+  width: 101%;
+  height: 80px;
+  padding: 1rem;
+  color: white;
+  background: #4d4c4c79;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.hr
+#info
 {
-  height: 3px;
-  width: 100%;
-  background-color: #000;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  background-color: #2B2B2B;
+  border-radius: 210px;
+  margin: 0 auto;
+  width: 1880px;
+  height: 420px;
+  margin-top: 150px;
+  margin-bottom: 50px;
 }
-
-#team_intro
+#info .text
 {
-  /* background-color: aqua; */
-  height: 297px;
-}
-
-/* #team_intro .part_one
-{
-  bord-
-} */
-
-#team_intro .part_one
-{
+  font-size: 40px;
+  text-align: center;
+  color: white;
   margin: auto;
-  margin-top: 60px;
-  width: 1150px;
-
-}
-
-#team_intro .part_one .logo
-{
-  float: left;
-}
-#team_intro .part_one .text_box
-{
+  width: 80%;
+  height: 95%;
   padding-top: 20px;
-  font-size: 20px;
-  font-family: KimjungchulGothic-Bold;
-  text-align: center;
-  border-radius: 15px;
-  float: left;
-  background-color: rgb(228, 228, 228);
-  width: 800px;
-  height: 255px;
-}
-#team_intro .text-box .text
-{
-  margin-top: 10px;
-  margin-left: 10px;
-  /* background-color: aqua; */
-  width: 780px;
-  height: 193px;
 }
 
-#member
+#Project_info
 {
-  margin: auto;
-  border-radius: 15px;
-  margin-bottom: 30px;
-  /* background-color: rgb(233, 211, 252); */
-  background-color: rgb(228, 228, 228);
-  height: 210px;
-  width : 1170px;
-  text-align: center;
-  font-size: 30px;
+  width: 1880px;
+  height: 420px;
+  margin: 0 auto;
+  /* background-color: antiquewhite; */
 }
-
-#member ul h3
+#Project_info .latest_update
 {
-  padding-top: 10px;
-  font-family: KimjungchulGothic-Bold;
-}
-
-#member ul li pre
-{
-  font-family: KimjungchulGothic-Bold;
-}
-
-#member ul
-{
-  list-style: none;
-}
-
-#member .member
-{
-  color: #000;
-  text-decoration: none;
-}
-#member .member:hover
-{
-  color: rgb(6, 0, 182);
-}
-
-/* #project_list
-{
-  background-color: rgb(160, 160, 230);
-  height: 400px;
-} */
-
-#project
-{
-  margin: auto;
-  width: 1170px;
-  height: 100px;
-}
-
-#project .proceeding
-{
-  text-align: center; font-family: KimjungchulGothic-Bold;
-  font-size: 20px;
-  background-color: rgb(208, 208, 208);
-  width: 32.5%;
+  border-radius: 42px;
+  background-color: #fff;
+  width: 930px;
   height: 100%;
   float: left;
-  margin-right: 1%;
-  border-radius: 15px;
+  margin: 0 20px 0 0;
 }
-#project .proceeding
+#Project_info .representative_project
 {
-  padding-top: 10px;
-}
-#project .expected
-{
-  text-align: center; font-family: KimjungchulGothic-Bold;
-  font-size: 20px;
-  background-color: rgb(208, 208, 208);
-  width: 33%;
+  border-radius: 42px;
+  background-color: #fff;
+  width: 460px;
   height: 100%;
   float: left;
-  margin-right: 1%;
-  border-radius: 15px;
+  margin: 0 10px 0 0;
 }
-#project .expected
+#Project_info .ongoing_project
 {
-  padding-top: 10px;
-}
-#project .finished
-{
-  text-align: center; font-family: KimjungchulGothic-Bold;
-  font-size: 20px;
-  background-color: rgb(208, 208, 208);
-  width: 32.5%;
+  border-radius: 42px;
+  background-color: #fff;
+  width: 460px;
   height: 100%;
   float: left;
-  border-radius: 15px;
-}
-#project .finished
-{
-  padding-top: 10px;
-}
-
-#footer
-{
-  /* background-color: aquamarine; */
-  height: 300px;
-  width: 100%;
 }
