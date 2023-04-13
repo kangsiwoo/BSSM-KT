@@ -5,6 +5,10 @@
   font-style: normal;
 }
 
+body
+{
+  display: contents;
+  background: linear-gradient(112.07deg, #FFFFFF 7.93%, #ADECEC 93.91%);}
 
 #nav
 {
