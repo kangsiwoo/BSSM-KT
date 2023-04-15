@@ -8,7 +8,12 @@
 body
 {
   display: contents;
-  background: linear-gradient(112.07deg, #FFFFFF 7.93%, #ADECEC 93.91%);}
+  background: linear-gradient(112.07deg, #FFFFFF 7.93%, #ADECEC 93.91%);
+}
+
+#grad {
+  background-image: linear-gradient(red, yellow);
+}
 
 #nav
 {
@@ -18,9 +23,15 @@ body
   margin: 40px 0 0 0;
   /* padding-bottom: 80px; */
 }
+
+#nav .logo img
+{
+  padding-right: -30px;
+}
+
 #nav li
 {
-  font-size: 30px;
+  font-size: 150%;
   float: left;
   font-family: Pretendard-Regular;
   margin-right: 60px;
