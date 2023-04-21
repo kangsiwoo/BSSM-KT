@@ -1,0 +1,35 @@
+.server
+{
+  width: 243px;
+  margin-top: 40px;
+  top: 524.23px;
+  margin: auto;
+  margin-top: 327px;
+}
+
+.new{
+width: 68.78px;
+height: 17.74px;
+font-family: 'Pretendard Variable';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+text-align: center;
+padding-right: 117.17px;
+
+}
+
+.no-id{
+
+width: 91.27px;
+height: 17.74px;
+top: 524.23px;
+
+font-family: 'Pretendard Variable';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+text-align: center;
+}

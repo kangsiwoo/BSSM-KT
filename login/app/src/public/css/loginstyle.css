@@ -1,0 +1,73 @@
+*{
+  font-family: 'Pretendard Variable';
+}
+
+body
+{
+  width: 100%;
+}
+
+.logo
+{
+  width: 129px;
+  height: 99px;
+  margin: auto;
+  margin-top: 154px;
+}
+
+form
+{
+  width: 396px;
+  height: 400px;
+  margin: auto;
+}
+
+img{
+  position: absolute;
+}
+
+#userid{
+  border: 1px solid #000;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  position: absolute;
+  width: 409px;
+  height: 56.18px;
+  top: 319px;
+}
+#userpw{
+  border: 1px solid #000;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  position: absolute;
+  width: 409px;
+  height: 56.18px;
+  top: 373px;
+}
+
+#userid:hover{
+  cursor: pointer;
+}
+
+#userid:focus{
+  border-color: black;
+}
+
+.idinput{
+  margin-bottom: 50px;
+  width: 409px;
+  height: 56.18px;
+  top: 375.18px;
+  background: #FFFFFF;
+  border-radius: 10px;
+}
+
+#btn{
+  border: none;
+  position: absolute;
+  width: 409px;
+  height: 59.13px;
+  top: 476.83px;
+  background: #ADECEC;
+  border-radius: 10px;
+}
